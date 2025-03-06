@@ -1,0 +1,97 @@
+/* Apply a black background for the title */
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the title text */
+header h1 {
+    color: white;
+    font-family: 'Impact', sans-serif; /* Replace with a more blocky font if preferred */
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+
+
+
+
+p {
+    font-size: 1.2em;  /* Make the text larger */
+    line-height: 1.6;   /* Add line height for readability */
+    color: #333;        /* Dark gray text color */
+    margin-top: 20px;    /* Add space above the paragraph */
+    margin-bottom: 20px; /* Add space below the paragraph */
+    font-family: 'Futura', sans-serif; /* Change font */
+    text-align: center;  /* Center the paragraph text */
+}
+
+ul {
+    font-size: 1.2em;  /* Same font size as <p> */
+    line-height: 1.6;   /* Same line height as <p> */
+    color: #333;        /* Dark gray color */
+    margin-top: 20px;    /* Space above the list */
+    margin-bottom: 20px; /* Space below the list */
+    font-family: 'Futura', sans-serif; /* Same font as <p> */
+    text-align: center;  /* Center the list text */
+    list-style-position: inside;
+    padding-left: 0;     /* Remove default left padding from the <ul> */
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;         /* Allows images to wrap into the next row when necessary */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 20px;              /* Adds space between the images */
+    margin-top: 20px;
+}
+
+/* Styling for the images */
+.image-container img {
+    width: 300px;           /* Set width of each image */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 10px;    /* Optional: Rounded corners for images */
+}
+
+/* Styling for the video element */
+video {
+    border-radius: 10px;  /* Optional: Rounds the corners of the video */
+    margin: 20px auto;    /* Centers the video with space above and below */
+    display: block;       /* Ensures the video is treated as a block-level element */
+}
+
+/* Body styling */
+body {
+    font-family: 'Josefin', sans-serif;
+    padding: 100px;
+}
+
+footer {
+    text-align: left; /* Centers the footer content */
+    padding: 20px;
+    
+}
+
+.return_home {
+    display: flex;
+    justify-content: space-around; /* Distribute the items evenly with space around them */
+    margin-top: 20px;
+    padding: 50px;
+}
+
+/* Optional: Add some style for the links */
+a {
+    text-decoration: none;
+    padding: 50px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Impact', sans-serif;
+    text-align: left;
+}
+
+a:hover {
+    background-color: grey; /* Change color on hover */
+}

@@ -1,0 +1,60 @@
+/* Apply a black background for the title */
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the title text */
+header h1 {
+    color: white;
+    font-family: 'Impact', sans-serif; /* Replace with a more blocky font if preferred */
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/* Flexbox styles for the links */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribute the items evenly with space around them */
+    gap: 10px; /* Optional: Adds space between the items */
+    margin-top: 20px;
+}
+
+/* Optional: Add some style for the links */
+a {
+    text-decoration: none;
+    padding: 50px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    background-color: grey; /* Change color on hover */
+}
+
+p {
+    font-size: 1.2em;  /* Make the text larger */
+    line-height: 1.6;   /* Add line height for readability */
+    color: #333;        /* Dark gray text color */
+    margin-top: 20px;    /* Add space above the paragraph */
+    margin-bottom: 20px; /* Add space below the paragraph */
+    font-family: 'Futura', sans-serif; /* Change font */
+    text-align: center;  /* Center the paragraph text */
+}
+
+
+
+/* Body styling */
+body {
+    font-family: 'Josefin', sans-serif;
+    padding: 20px;
+}
+
+footer {
+
+    padding: 100px
+}
